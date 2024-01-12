@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Calibri, cwTeXYen;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header div.top {
+  padding: 2.5rem;
+}
+header div.top h1 {
+  font-size: 2.5rem;
+}
+
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-width: thin;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0 2rem;
+}
+
+header nav ul li {
+  padding: 0.8rem 1rem;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(175, 101, 101);
+}
+
+.active {
+  color: rgb(175, 101, 101);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div.left {
+  padding: 2rem;
+  flex: 1 1 100px;
+}
+
+main div.left h3 {
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+}
+
+main div.left img {
+  width: 100%;
+  align-items: center;
+}
+
+main div.left figcaption {
+  text-align: center;
+  padding: 1rem;
+}
+
+main div.right {
+  padding: 2rem;
+  flex: 1 1 800px;
+}
+
+main div.right h3 {
+  font-weight: bold;
+}
+
+main div.right p {
+  padding: 0.5rem;
+}
+
+hr.style-one {
+  margin: 1rem 30% 1rem 30%;
+}
+
+main div.right table thead {
+  height: 30px;
+  padding: 10px;
+  text-align: left;
+}
+
+.period {
+  color: rgb(194, 77, 57);
+}
+
+main div.right table td {
+  height: 30px;
+  padding: 1px 10px;
+}
